@@ -1,0 +1,134 @@
+{
+  "data": [
+    {
+      "title": "Oleoleh",
+      "avatar": "oleoleh.png",
+      "description": "Oleoleh is an application developed to make it easy for users to buy souvenirs from anywhere. This application will assist users in purchasing, looking for the nearest store and delivering souvenirs to your place with a flat delivery method and costs up to 25km.",
+      "photo": [
+        "portoOleoleh1.png",
+        "portoOleoleh2.png",
+        "portoOleoleh3.png",
+        "portoOleoleh4.png"
+      ],
+      "created": "2020",
+      "type": "E-commerce"
+    },
+    {
+      "title": "Narma",
+      "avatar": "narma.png",
+      "description": "Narma Shop is an application to simplify the service of conventional retail stores to become online shops or often also called E-Commerce. Narma Shop itself wants to realize the convenience of shopping so as to create a mini e-commerce application, in this application the user is given the ease of buying and using delivery services in buying goods",
+      "photo": [
+        "portoNarma1.png",
+        "portoNarma2.png",
+        "portoNarma3.png",
+        "portoNarma4.png"
+      ],
+      "created": "2019",
+      "type": "E-commerce"
+    },
+    {
+      "title": "Watong",
+      "avatar": "watong.png",
+      "description": "Watong is an application to simplify franchise services with the Watong brand, which sells a variety of foods and beverages. Watong makes it easy for buyers to make purchases and take order at the time specified by the buyer.",
+      "photo": [
+        "portoWatong1.png",
+        "portoWatong2.png",
+        "portoWatong3.png",
+        "portoWatong4.png"
+      ],
+      "created": "2019",
+      "type": "E-commerce"
+    },
+    {
+      "title": "Football Kick",
+      "avatar": "fk.png",
+      "description": "FootBall Kick application is an application intended to view football match schedules,match results, match details, team details and descriptions of players in the team, this application also features favorite features to save results and can be used to install alarms for upcoming matches.",
+      "photo": [
+        "portoFk1.png",
+        "portoFk2.png",
+        "portoFk3.png",
+        "portoFk4.png"
+      ],
+      "created": "2018",
+      "type": "Sports"
+    },
+    {
+      "title": "ESRA-LC",
+      "avatar": "elc.png",
+      "description": "ESRA-LC application is one of the final tasks for the S2 program, about the purpose of making the application broken down to help users / users in dealing with tightness, tiredness, pain and anxiety based on questionnaire points that will produce levels of problems, how to overcome the problems mentioned and of course equipped with videos to make it easy.",
+      "photo": [
+        "portoElc1.png",
+        "portoElc2.png",
+        "portoElc3.png",
+        "portoElc4.png"
+      ],
+      "created": "2018",
+      "type": "Health"
+    },
+    {
+      "title": "SMS Gateway",
+      "avatar": "sg.png",
+      "description": "Making the SMS gateway feature itself using Android mobile media.",
+      "photo": [
+        "portoSg1.png",
+        "portoSg2.png",
+        "portoSg3.png",
+        "portoSg4.png"
+      ],
+      "created": "2018",
+      "type": "Sms Broadcast"
+    },
+    {
+      "title": "GUCC",
+      "avatar": "gucc.png",
+      "description": "Facilitate GUCC institution assistants to attend attendance and be equipped with various features that facilitate the mobile process in GUCC administration activities.",
+      "photo": [
+        "portoGucc1.png",
+        "portoGucc2.png",
+        "portoGucc3.png",
+        "portoGucc4.png"
+      ],
+      "created": "2017",
+      "type": "Administrative"
+    },
+    {
+      "title": "Dedikos",
+      "avatar": "dedikos.png",
+      "description": "Makes it easy to check psychosis using Android mobile media.",
+      "photo": [
+        "portoDedikos1.png",
+        "portoDedikos2.png",
+        "portoDedikos3.png",
+        "portoDedikos4.png"
+      ],
+      "created": "2017",
+      "type": "Survey"
+    },
+    {
+      "title": "Sicergas",
+      "avatar": "sicergas.png",
+      "description": "Facilitate data collection on healthy families using Android mobile media.",
+      "photo": [
+        "portoSicergas1.png",
+        "portoSicergas2.png",
+        "portoSicergas3.png",
+        "portoSicergas4.png"
+      ],
+      "created": "2017",
+      "type": "Survey"
+    },
+    {
+      "title": "Getar Media",
+      "avatar": "gm.png",
+      "description": "Application for news and anti-terrorism portal, which is a team collaboration with designing an analysis system on the dashboard.",
+      "photo": [
+        "portoGm1.png",
+        "portoGm2.png",
+        "portoGm3.png",
+        "portoGm4.png"
+      ],
+      "created": "2017",
+      "type": "Report and News"
+    }
+  ]
+}
