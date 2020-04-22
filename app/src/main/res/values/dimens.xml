@@ -1,35 +1,23 @@
-<resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="zero_margin">0dp</dimen>
-    <dimen name="zero_point_five_margin">0.5dp</dimen>
-
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
-
-    <dimen name="profile_header_height">120dp</dimen>
-
-    <dimen name="widget_margin">8dp</dimen>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <dimen name="ultra_tiny_font_size">8sp</dimen>
     <dimen name="extra_tiny_font_size">10sp</dimen>
     <dimen name="tiny_font_size">11sp</dimen>
     <dimen name="small_font_size">12sp</dimen>
-    <dimen name="small_medium_font_size">13sp</dimen>
+    <dimen name="small_to_medium_font_size">13sp</dimen>
     <dimen name="medium_font_size">14sp</dimen>
-    <dimen name="medium_large_font_size">15sp</dimen>
     <dimen name="large_font_size">16sp</dimen>
     <dimen name="extra_large_font_size">18sp</dimen>
     <dimen name="not_so_huge_font_size">20sp</dimen>
     <dimen name="not_so_huger_font_size">22sp</dimen>
     <dimen name="huge_font_size">24sp</dimen>
     <dimen name="very_huge_font_size">26sp</dimen>
-    <dimen name="huger_font_size">28sp</dimen>
-    <dimen name="very_huger_font_size">30sp</dimen>
+    <dimen name="very_very_huge_font_size">34sp</dimen>
 
     <dimen name="no_offset_margin">0dp</dimen>
     <dimen name="really_tiny_margin">1dp</dimen>
     <dimen name="very_tiny_margin">2dp</dimen>
-    <dimen name="small_tiny_margin">3dp</dimen>
     <dimen name="tiny_margin">4dp</dimen>
     <dimen name="tiny_medium_margin">5dp</dimen>
     <dimen name="very_small_margin">6dp</dimen>
@@ -48,7 +36,7 @@
     <dimen name="larger_margin_plus">30dp</dimen>
     <dimen name="big_margin">32dp</dimen>
     <dimen name="extra_big_margin">36dp</dimen>
-    <dimen name="extra_big_margin_medium">38dp</dimen>
+    <dimen name="extra_bigger_margin">38dp</dimen>
     <dimen name="extra_big_margin_plus">40dp</dimen>
     <dimen name="extra_bigger_margin_plus">44dp</dimen>
     <dimen name="huge_margin">48dp</dimen>
@@ -57,7 +45,9 @@
     <dimen name="extra_huger_margin">64dp</dimen>
     <dimen name="very_extra_huge_margin">68dp</dimen>
     <dimen name="very_huge_margin">72dp</dimen>
+    <dimen name="very_huge_margin_plush">84dp</dimen>
     <dimen name="very_very_huge_margin">96dp</dimen>
+    <dimen name="extra_very_very_huge_margin">108dp</dimen>
 
     <dimen name="divider_height">1dp</dimen>
     <dimen name="line_edit_text_height">1.5dp</dimen>
@@ -74,8 +64,20 @@
     <dimen name="image_picker_selection_size">60dp</dimen>
 
     <dimen name="otp_view_width">12dp</dimen>
-    <dimen name="extra_very_very_huge_margin">120dp</dimen>
-    <dimen name="very_padding_huge_margin">-70dp</dimen>
-    <dimen name="large_padding_margin">-25dp</dimen>
+    <dimen name="button_in_center_medium">200dp</dimen>
+    <dimen name="gomerchant_sdk_qr_scanner_dimen">300dp</dimen>
+    <dimen name="gomerchant_sdk_qr_scanner_square_dimen">308dp</dimen>
+    <dimen name="gomerchant_sdk_go_to_y_axis">-63dp</dimen>
+    <dimen name="gomerchant_sdk_from_y_axis">426dp</dimen>
+    <dimen name="gomerchant_sdk_qr_scanner_bar_margin_top">-63dp</dimen>
+    <dimen name="headermenu_margin_up">-45dp</dimen>
+    <dimen name="cardmenu_margin_up_30">-30dp</dimen>
+    <dimen name="cardmenu_margin_up_20">-20dp</dimen>
+    <dimen name="cardmenu_margin_up_15">-15dp</dimen>
+    <dimen name="cardmenu_margin_up_10">-10dp</dimen>
+    <dimen name="cardmenu_margin_up_5">-5dp</dimen>
 
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">12sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">12sp</dimen>
 </resources>
