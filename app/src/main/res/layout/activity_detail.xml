@@ -1,9 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator_detail"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DetailActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/toolbar_title"
+                        style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:paddingEnd="@dimen/very_huge_margin_plush"
+                        android:textColor="@color/colorAccent"
+                        tools:text="About" />
+
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/layout_is_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorBack"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/large_margin">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/iv_avatar"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_margin="@dimen/medium_margin"
+                        app:civ_border_color="@color/colorPrimaryDark"
+                        app:civ_border_width="@dimen/_1sdp"
+                        android:src="@drawable/ic_launcher_background" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:background="@color/colorWhite"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/small_margin"
+                    android:paddingRight="@dimen/small_margin"
+                    android:paddingBottom="@dimen/small_margin">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorTransparent"
+                        android:backgroundTint="@color/colorTransparent"
+                        android:gravity="center_vertical"
+                        android:hint="name"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_10sdp"
+                        android:textColor="@color/colorText3" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/really_tiny_margin"
+                        android:layout_marginStart="@dimen/small_margin"
+                        android:layout_marginEnd="@dimen/small_margin"
+                        android:background="@color/colorBack2" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorTransparent"
+                        android:backgroundTint="@color/colorTransparent"
+                        android:gravity="center_vertical"
+                        android:hint="name"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_10sdp"
+                        android:textColor="@color/colorText3" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
